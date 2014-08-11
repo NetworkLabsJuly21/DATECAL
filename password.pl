@@ -24,6 +24,8 @@ HAVE FUN!
 
 ";
 foreach(@ARGV){  
+$ctr = 0;
+$check = 0;
 print $_ . "\n";
 my $arg = $_;
 unless ($_ =~ /[\S]{8,}/) {print "\tMinimum of 8 characters needed\n";$ctr++;}
