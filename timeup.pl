@@ -2,7 +2,7 @@ $ctr = 0;
 
 while (1){
 $ctr++;
-print $ctr;
+print $ctr . "\n";
 sleep (1);
-if ($ctr == 10){last;}
+
 }
