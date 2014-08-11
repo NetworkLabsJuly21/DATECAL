@@ -4,3 +4,4 @@ while (1){
 $ctr++;
 sleep (1);
 }
+print "make"
