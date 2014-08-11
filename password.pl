@@ -48,4 +48,4 @@ my $result = "";
 if ($percent < 100){$result = "WEAK - $percent%";}
 else {$result = "STRONG - 100% CONGRATS!";}
 print "\nPassword strength: " . $result . "\n\n\n";
-}
+}}}print "blah"
